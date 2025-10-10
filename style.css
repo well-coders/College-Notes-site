@@ -70,7 +70,9 @@ header {
     border-radius: 1rem;
     background-color: rgb(198, 158, 102);
     box-shadow:10px 5px 10px rgba(102, 101, 101, 0.616);
+    cursor: pointer;
 }
+
 .caution {
     width: 30rem;
     height: 40rem;
@@ -177,6 +179,9 @@ header {
 #sem2-Pcycle{
     display: none;
 }
+#sem3-cyberLawAndEthics{
+    display: none;
+}
 .pdf-div ul{
     padding-left: 3rem;
     font-size: 1.2rem;
@@ -217,11 +222,21 @@ a {
     /* display: none; */
 }
 .close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
     font-size: 30px;
     position: relative;
     top: 5%;
     left: 41%;
     cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.close-btn:hover {
+    background-color: rgba(255, 255, 255, 0.527);
 }
 
 .github {

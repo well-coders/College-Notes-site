@@ -4,6 +4,7 @@ const sem1EcycleDiv = document.getElementById("sem1-Ecycle");
 const sem1PcycleDiv = document.getElementById("sem1-Pcycle");
 const sem2EcycleDiv = document.getElementById("sem2-Ecycle");
 const sem2PcycleDiv = document.getElementById("sem2-Pcycle");
+const sem3_cyberLawAndEthics = document.getElementById("sem3-cyberLawAndEthics");
 const caution_div = document.querySelector(".caution")
 
         // <!-- 1 st sem E cycle -->
@@ -68,6 +69,29 @@ semSelect.addEventListener("change", display_2_sem_Pcycle);
 cycleSelect.addEventListener("change", display_2_sem_Pcycle);
 
 
+
+
+// -------3rd sem Cyber law and ethics------------
+
+
+function display_3_sem_cyberLawEthics() {
+    const semValue = semSelect.value;
+    const cycleValue = cycleSelect.value;
+    if (semValue === "3" && cycleValue === "cyberLawEthics") {
+        sem3_cyberLawAndEthics.style.display = "block";
+    } else {
+        sem3_cyberLawAndEthics.style.display = "none";
+    }
+}
+// Attach event listeners to both selects
+semSelect.addEventListener("change", display_3_sem_cyberLawEthics);
+cycleSelect.addEventListener("change", display_3_sem_cyberLawEthics);
+
+
+
+
+    // --------Account----------
+
 const close_btn = document.querySelector(".close-btn")
 const follow_btn = document.querySelector(".btn-signIn")
 const account_section = document.querySelector(".Accounts")
@@ -122,3 +146,4 @@ function display_caution(){
 }
 semSelect.addEventListener("change", display_caution);
 cycleSelect.addEventListener("change", display_caution);
+
