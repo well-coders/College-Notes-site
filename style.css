@@ -807,7 +807,6 @@ header {
 .close-btn{
      color: white;
      font-size: 20px;
-     /* background-color: aqua; */
      display: flex;
      align-items: center;
      justify-content: center;

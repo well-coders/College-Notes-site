@@ -92,7 +92,7 @@ cycleSelect.addEventListener("change", display_3_sem_cyberLawEthics);
 
     // --------Account----------
 
-const close_btn = document.querySelector(".close-btn")
+const close_btn = document.querySelector(".close-btn");
 const follow_btn = document.querySelector(".btn-signIn")
 const account_section = document.querySelector(".Accounts")
 const github_btn = document.querySelector(".github")
